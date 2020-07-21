@@ -11,5 +11,4 @@ def home_desktop(request):
 
 @view_config(route_name="home", renderer="json", device="mobile")
 def home_mobile(request):
-
     return {"status": "This is the homepage for mobile devices"}
