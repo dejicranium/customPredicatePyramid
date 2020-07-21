@@ -5,6 +5,7 @@ from sqlalchemy.exc import DBAPIError
 
 from .. import models
 
+
 @view_config(route_name="home", renderer="json")
 def home_desktop(request):
     return {"status": "This is the homepage for desktop devices"}
